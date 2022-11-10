@@ -1,0 +1,71 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    background-color: bisque;
+}
+.game__background {
+    background-image: url('./img/background.png');
+    background-size : contain;
+    margin: auto;
+    position: relative;
+    text-align: center;
+    border: 1px solid;
+    width: 1300px;
+    height: 730px;
+}
+.function {
+    position: static;
+    margin-top: 110px;
+}
+.bug_carrot {
+    position: absolute;
+    top: 380px;
+    height: 340px;
+    width: 100%;
+}
+button{
+    cursor: pointer;
+    background: none;
+    border: 0ch;
+}
+.function__start{
+    border: 1px solid black;
+    background-color: coral;
+    font-size: 50px;
+}
+.function__start:hover{
+    background-color: blue;
+}
+.function__counter {
+    background-color: cornflowerblue;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin: auto;
+    font-size: 50px;
+}
+.function__replay {
+    font-size: 50px;
+
+}
+.function__failed{
+    display: inline;
+    font-size: 50px;
+    background-color: crimson;
+}
+.function__win{
+    display: inline;
+    font-size: 50px;
+    background-color: crimson;
+}
+.bug {
+    z-index: 0;
+    background: none;
+}
+.carrot {
+    z-index: 0;
+}
+.hide {
+    display: none;
+  }
